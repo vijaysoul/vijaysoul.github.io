@@ -12,7 +12,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         
-        TARGET_REPO: katheesh/katheesh.github.io
+        TARGET_REPO: vijaysoul/vijaysoul.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: dist/
