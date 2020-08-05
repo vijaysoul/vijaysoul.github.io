@@ -6,7 +6,7 @@ name: CI
 # events but only for the gh-pages branch
 on:
   push:
-    branches: [ master ]
+    branches: [ gh-pages ]
   pull_request:
     branches: [ gh-pages ]
 
